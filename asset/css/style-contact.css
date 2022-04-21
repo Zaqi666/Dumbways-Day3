@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*NAVBAR START*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+nav .left-side {
+    display: flex;
+    margin-left: 50px;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+.left-side a {
+    color: black;
+    text-decoration: none;
+}
+
+nav .right-side {
+    background-color: black;
+    margin-right: 60px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+}
+
+.right-side a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-side a:hover {
+    color: red;
+}
+
+.right-side:hover {
+    background-color: red;
+}
+
+/*NAVBAR END*/
+
+.form-contact {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    background-color: #dbdde1;
+}
+
+.form-contact .container-form {
+    width: 30%;
+}
+
+.title {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form-contact form {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-contact form label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-contact form input,
+select,
+textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0.2);
+}
+
+.form-contact form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.container-form .submit {
+    display: flex;
+    justify-content: end;
+}
+
+.form-contact form button {
+    padding: 7px 30px;
+    font-size: 17px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-contact form button:hover {
+    background-color: red;
+}

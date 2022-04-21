@@ -1,0 +1,68 @@
+<html>
+<link rel="stylesheet" href="asset/css/style-contact.css">
+
+<body>
+
+    <nav>
+        <div class="left-side">
+            <a href="">
+                <img src="asset/img/logo.png">
+            </a>
+            <ol>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="">My Project</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="right-side">
+            <a href="index.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="form-contact">
+        <div class="container-form">
+            <div class="title">
+                <h2>GET IN TOUCH</h2>
+            </div>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text">
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option hidden></option>
+                        <option value="Frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="Fullstack">Fullstack</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="submit">
+                    <button type="button" onclick="showData(event)">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
